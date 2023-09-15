@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.App {
+  /* text-align: center; */
+  font-family: Arial, sans-serif;
+}
+
+/* Add styles for the slideable navbar */
+.category-slider {
+  overflow-x: hidden;
+  white-space: nowrap;
+  border-bottom: 2px solid rgb(243, 243, 243);
+  padding: 20px;
+}
+
+.slider-wrapper {
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.categories {
+  display: inline-block;
+  /* Adjust spacing between categories as needed */
+  margin-right: 20px;
+  overflow-x: hidden;
+  list-style-type: none;
+}
+
+.categories-list {
+  list-style-type: none;
+}
+
+.category {
+  display: inline-block;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 560;
+  margin-right: 25px;
+}
+
+.category:hover {
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  /* text-decoration: underline; */
+  /* Add other styles for hover effect */
+}
+
+.slider-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+/* app item */
+
+.apps-list {
+  list-style-type: none;
+}

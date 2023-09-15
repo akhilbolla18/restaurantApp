@@ -1,0 +1,78 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.dish-item {
+  list-style-type: none;
+  padding: 20px;
+}
+
+.dish {
+  border: 2px solid grey;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Adjust shadow properties as needed */
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.dish-details {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dish-name {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.dish-price {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.dish-description {
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: gray;
+}
+
+.button-con {
+  background-color: green;
+  width: 120px;
+  height: 40px;
+  border: none;
+  border-radius: 25px;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.button-counter {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.dish-calories {
+  font-size: 18px;
+  font-weight: 600;
+  color: orange;
+}
+
+.dish-image {
+  width: 140px;
+  height: 140px;
+  border-radius: 10px;
+}
